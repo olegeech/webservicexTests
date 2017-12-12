@@ -1,0 +1,144 @@
+schema.py                  335 DEBUG    Init schema document for None
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}string', <zeep.xsd.types.builtins.String object at 0x03F25BF0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}boolean', <zeep.xsd.types.builtins.Boolean object at 0x03F25C30>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}decimal', <zeep.xsd.types.builtins.Decimal object at 0x03F25D50>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}float', <zeep.xsd.types.builtins.Float object at 0x03F25E70>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}double', <zeep.xsd.types.builtins.Double object at 0x03F25FB0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}duration', <zeep.xsd.types.builtins.Duration object at 0x03F25E90>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}dateTime', <zeep.xsd.types.builtins.DateTime object at 0x03F2C0F0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}time', <zeep.xsd.types.builtins.Time object at 0x03F2C2B0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}date', <zeep.xsd.types.builtins.Date object at 0x03F2C030>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}gYearMonth', <zeep.xsd.types.builtins.gYearMonth object at 0x03F2C3D0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}gYear', <zeep.xsd.types.builtins.gYear object at 0x03F2C570>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}gMonthDay', <zeep.xsd.types.builtins.gMonthDay object at 0x03F2C430>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}gDay', <zeep.xsd.types.builtins.gDay object at 0x03F2C690>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}gMonth', <zeep.xsd.types.builtins.gMonth object at 0x03F2C850>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}hexBinary', <zeep.xsd.types.builtins.HexBinary object at 0x03F2C890>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}base64Binary', <zeep.xsd.types.builtins.Base64Binary object at 0x03F2C990>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}anyURI', <zeep.xsd.types.builtins.AnyURI object at 0x03F2CAD0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}QName', <zeep.xsd.types.builtins.QName object at 0x03F2CBD0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}NOTATION', <zeep.xsd.types.builtins.Notation object at 0x03F2CCF0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}normalizedString', <zeep.xsd.types.builtins.NormalizedString object at 0x03F2CDB0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}token', <zeep.xsd.types.builtins.Token object at 0x03F2CE70>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}language', <zeep.xsd.types.builtins.Language object at 0x03F2CFD0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}NMTOKEN', <zeep.xsd.types.builtins.NmToken object at 0x03F350B0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}NMTOKENS', <zeep.xsd.types.builtins.NmTokens object at 0x03F35070>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}Name', <zeep.xsd.types.builtins.Name object at 0x03F35330>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}NCName', <zeep.xsd.types.builtins.NCName object at 0x03F35370>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}ID', <zeep.xsd.types.builtins.ID object at 0x03F351B0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}IDREF', <zeep.xsd.types.builtins.IDREF object at 0x03F35610>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}IDREFS', <zeep.xsd.types.builtins.IDREFS object at 0x03F35650>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}ENTITY', <zeep.xsd.types.builtins.Entity object at 0x03F35750>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}ENTITIES', <zeep.xsd.types.builtins.Entities object at 0x03F35A10>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}integer', <zeep.xsd.types.builtins.Integer object at 0x03F35C70>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}nonPositiveInteger', <zeep.xsd.types.builtins.NonPositiveInteger object at 0x03F35CD0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}negativeInteger', <zeep.xsd.types.builtins.NegativeInteger object at 0x03F92BF0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}long', <zeep.xsd.types.builtins.Long object at 0x03E89A30>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}int', <zeep.xsd.types.builtins.Int object at 0x03E89FF0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}short', <zeep.xsd.types.builtins.Short object at 0x03E89FD0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}byte', <zeep.xsd.types.builtins.Byte object at 0x03E9E0B0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}nonNegativeInteger', <zeep.xsd.types.builtins.NonNegativeInteger object at 0x03E9E130>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}unsignedByte', <zeep.xsd.types.builtins.UnsignedByte object at 0x03E9E070>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}unsignedInt', <zeep.xsd.types.builtins.UnsignedInt object at 0x03E9E5D0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}unsignedLong', <zeep.xsd.types.builtins.UnsignedLong object at 0x03E9E670>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}unsignedShort', <zeep.xsd.types.builtins.UnsignedShort object at 0x03E9E750>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}positiveInteger', <zeep.xsd.types.builtins.PositiveInteger object at 0x03E9E830>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}anyType', <zeep.xsd.types.any.AnyType object at 0x03E9E8F0>)
+schema.py                  430 DEBUG    register_type(u'{http://www.w3.org/2001/XMLSchema}anySimpleType', <zeep.xsd.types.simple.AnySimpleType object at 0x03E9E9B0>)
+schema.py                  436 DEBUG    register_element(u'{http://www.w3.org/2001/XMLSchema}schema', <zeep.xsd.elements.builtins.Schema object at 0x03E9EA70>)
+schema.py                  297 DEBUG    Add document with tns http://www.w3.org/2001/XMLSchema to schema 66214480
+connectionpool.py          207 DEBUG    Starting new HTTP connection (1): www.webservicex.net
+connectionpool.py          395 DEBUG    http://www.webservicex.net:80 "GET /country.asmx?WSDL HTTP/1.1" 200 4001
+wsdl.py                    160 DEBUG    Creating definition for http://www.webservicex.net/country.asmx?WSDL
+schema.py                  335 DEBUG    Init schema document for 'http://www.webservicex.net/country.asmx?WSDL'
+schema.py                  297 DEBUG    Add document with tns http://www.webserviceX.NET to schema 66214480
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCountryByCountryCode', <Element(name=u'GetCountryByCountryCode', type=<zeep.xsd.dynamic_types.GetCountryByCountryCode object at 0x03E9EB70>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCountryByCountryCodeResponse', <Element(name=u'GetCountryByCountryCodeResponse', type=<zeep.xsd.dynamic_types.GetCountryByCountryCodeResponse object at 0x03EAF630>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetISD', <Element(name=u'GetISD', type=<zeep.xsd.dynamic_types.GetISD object at 0x03EAF510>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetISDResponse', <Element(name=u'GetISDResponse', type=<zeep.xsd.dynamic_types.GetISDResponse object at 0x03EAFD70>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCountries', <Element(name=u'GetCountries', type=<zeep.xsd.dynamic_types.GetCountries object at 0x03EBAE90>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCountriesResponse', <Element(name=u'GetCountriesResponse', type=<zeep.xsd.dynamic_types.GetCountriesResponse object at 0x03EBAA10>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCurrencyCodeByCurrencyName', <Element(name=u'GetCurrencyCodeByCurrencyName', type=<zeep.xsd.dynamic_types.GetCurrencyCodeByCurrencyName object at 0x03EBAAF0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCurrencyCodeByCurrencyNameResponse', <Element(name=u'GetCurrencyCodeByCurrencyNameResponse', type=<zeep.xsd.dynamic_types.GetCurrencyCodeByCurrencyNameResponse object at 0x03EDA4D0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetISOCountryCodeByCountyName', <Element(name=u'GetISOCountryCodeByCountyName', type=<zeep.xsd.dynamic_types.GetISOCountryCodeByCountyName object at 0x03EDAEB0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetISOCountryCodeByCountyNameResponse', <Element(name=u'GetISOCountryCodeByCountyNameResponse', type=<zeep.xsd.dynamic_types.GetISOCountryCodeByCountyNameResponse object at 0x03EDA190>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCurrencyCode', <Element(name=u'GetCurrencyCode', type=<zeep.xsd.dynamic_types.GetCurrencyCode object at 0x03EDA7D0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCurrencyCodeResponse', <Element(name=u'GetCurrencyCodeResponse', type=<zeep.xsd.dynamic_types.GetCurrencyCodeResponse object at 0x03EDA6D0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCountryByCurrencyCode', <Element(name=u'GetCountryByCurrencyCode', type=<zeep.xsd.dynamic_types.GetCountryByCurrencyCode object at 0x03FB4F10>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCountryByCurrencyCodeResponse', <Element(name=u'GetCountryByCurrencyCodeResponse', type=<zeep.xsd.dynamic_types.GetCountryByCurrencyCodeResponse object at 0x03FB4ED0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCurrencies', <Element(name=u'GetCurrencies', type=<zeep.xsd.dynamic_types.GetCurrencies object at 0x0402C130>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCurrenciesResponse', <Element(name=u'GetCurrenciesResponse', type=<zeep.xsd.dynamic_types.GetCurrenciesResponse object at 0x0402C1F0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCurrencyByCountry', <Element(name=u'GetCurrencyByCountry', type=<zeep.xsd.dynamic_types.GetCurrencyByCountry object at 0x0402C2D0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetCurrencyByCountryResponse', <Element(name=u'GetCurrencyByCountryResponse', type=<zeep.xsd.dynamic_types.GetCurrencyByCountryResponse object at 0x0402C3B0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetGMTbyCountry', <Element(name=u'GetGMTbyCountry', type=<zeep.xsd.dynamic_types.GetGMTbyCountry object at 0x0402C4B0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}GetGMTbyCountryResponse', <Element(name=u'GetGMTbyCountryResponse', type=<zeep.xsd.dynamic_types.GetGMTbyCountryResponse object at 0x0402C5B0>)>)
+schema.py                  436 DEBUG    register_element(u'{http://www.webserviceX.NET}string', <Element(name=u'string', type=<UnresolvedType(qname=u'{http://www.w3.org/2001/XMLSchema}string')>)>)
+schema.py                  383 DEBUG    Resolving in schema <SchemaDocument(location='http://www.webservicex.net/country.asmx?WSDL', tns='http://www.webserviceX.NET', is_empty=False)>
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCountryCodeSoapIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCountryCodeSoapOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISDSoapIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISDSoapOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountriesSoapIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountriesSoapOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeByCurrencyNameSoapIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeByCurrencyNameSoapOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISOCountryCodeByCountyNameSoapIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISOCountryCodeByCountyNameSoapOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeSoapIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeSoapOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCurrencyCodeSoapIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCurrencyCodeSoapOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrenciesSoapIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrenciesSoapOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyByCountrySoapIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyByCountrySoapOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetGMTbyCountrySoapIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetGMTbyCountrySoapOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCountryCodeHttpGetIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCountryCodeHttpGetOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISDHttpGetIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISDHttpGetOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountriesHttpGetIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountriesHttpGetOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeByCurrencyNameHttpGetIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeByCurrencyNameHttpGetOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISOCountryCodeByCountyNameHttpGetIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISOCountryCodeByCountyNameHttpGetOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeHttpGetIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeHttpGetOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCurrencyCodeHttpGetIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCurrencyCodeHttpGetOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrenciesHttpGetIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrenciesHttpGetOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyByCountryHttpGetIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyByCountryHttpGetOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetGMTbyCountryHttpGetIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetGMTbyCountryHttpGetOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCountryCodeHttpPostIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCountryCodeHttpPostOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISDHttpPostIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISDHttpPostOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountriesHttpPostIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountriesHttpPostOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeByCurrencyNameHttpPostIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeByCurrencyNameHttpPostOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISOCountryCodeByCountyNameHttpPostIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetISOCountryCodeByCountyNameHttpPostOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeHttpPostIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyCodeHttpPostOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCurrencyCodeHttpPostIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCountryByCurrencyCodeHttpPostOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrenciesHttpPostIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrenciesHttpPostOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyByCountryHttpPostIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetCurrencyByCountryHttpPostOut
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetGMTbyCountryHttpPostIn
+wsdl.py                    332 DEBUG    Adding message: {http://www.webserviceX.NET}GetGMTbyCountryHttpPostOut
+wsdl.py                    354 DEBUG    Adding port: {http://www.webserviceX.NET}countrySoap
+wsdl.py                    354 DEBUG    Adding port: {http://www.webserviceX.NET}countryHttpGet
+wsdl.py                    354 DEBUG    Adding port: {http://www.webserviceX.NET}countryHttpPost
+wsdl.py                    416 DEBUG    Adding binding: {http://www.webserviceX.NET}countrySoap
+wsdl.py                    416 DEBUG    Adding binding: {http://www.webserviceX.NET}countrySoap12
+wsdl.py                    416 DEBUG    Adding binding: {http://www.webserviceX.NET}countryHttpGet
+wsdl.py                    416 DEBUG    Adding binding: {http://www.webserviceX.NET}countryHttpPost
+wsdl.py                    442 DEBUG    Adding service: country

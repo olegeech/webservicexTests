@@ -1,0 +1,84 @@
+transports.py               61 DEBUG    HTTP Post to http://www.webservicex.net/country.asmx:
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:GetCountryByCountryCode xmlns:ns0="http://www.webserviceX.NET"><ns0:CountryCode>qa</ns0:CountryCode></ns0:GetCountryByCountryCode></soap-env:Body></soap-env:Envelope>
+connectionpool.py          395 DEBUG    http://www.webservicex.net:80 "POST /country.asmx HTTP/1.1" 200 396
+transports.py               82 DEBUG    HTTP Response from http://www.webservicex.net/country.asmx (status: 200):
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetCountryByCountryCodeResponse xmlns="http://www.webserviceX.NET"><GetCountryByCountryCodeResult>&lt;NewDataSet&gt;
+  &lt;Table&gt;
+    &lt;countrycode&gt;qa&lt;/countrycode&gt;
+    &lt;name&gt;Qatar&lt;/name&gt;
+  &lt;/Table&gt;
+  &lt;Table&gt;
+    &lt;countrycode&gt;qa&lt;/countrycode&gt;
+    &lt;name&gt;Qatar&lt;/name&gt;
+  &lt;/Table&gt;
+&lt;/NewDataSet&gt;</GetCountryByCountryCodeResult></GetCountryByCountryCodeResponse></soap:Body></soap:Envelope>
+transports.py               61 DEBUG    HTTP Post to http://www.webservicex.net/country.asmx:
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:GetCurrencyByCountry xmlns:ns0="http://www.webserviceX.NET"><ns0:CountryName>Qatar</ns0:CountryName></ns0:GetCurrencyByCountry></soap-env:Body></soap-env:Envelope>
+connectionpool.py          395 DEBUG    http://www.webservicex.net:80 "POST /country.asmx HTTP/1.1" 200 425
+transports.py               82 DEBUG    HTTP Response from http://www.webservicex.net/country.asmx (status: 200):
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetCurrencyByCountryResponse xmlns="http://www.webserviceX.NET"><GetCurrencyByCountryResult>&lt;NewDataSet&gt;
+  &lt;Table&gt;
+    &lt;Name&gt;Qatar&lt;/Name&gt;
+    &lt;CountryCode&gt;qa&lt;/CountryCode&gt;
+    &lt;Currency&gt;Rial&lt;/Currency&gt;
+    &lt;CurrencyCode&gt;QAR&lt;/CurrencyCode&gt;
+  &lt;/Table&gt;
+  &lt;Table&gt;
+    &lt;Name&gt;Qatar&lt;/Name&gt;
+    &lt;CountryCode&gt;qa&lt;/CountryCode&gt;
+    &lt;Currency&gt;Rial&lt;/Currency&gt;
+    &lt;CurrencyCode&gt;QAR&lt;/CurrencyCode&gt;
+  &lt;/Table&gt;
+&lt;/NewDataSet&gt;</GetCurrencyByCountryResult></GetCurrencyByCountryResponse></soap:Body></soap:Envelope>
+transports.py               61 DEBUG    HTTP Post to http://www.webservicex.net/country.asmx:
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:GetCountryByCurrencyCode xmlns:ns0="http://www.webserviceX.NET"><ns0:CurrencyCode>QAR</ns0:CurrencyCode></ns0:GetCountryByCurrencyCode></soap-env:Body></soap-env:Envelope>
+connectionpool.py          395 DEBUG    http://www.webservicex.net:80 "POST /country.asmx HTTP/1.1" 200 427
+transports.py               82 DEBUG    HTTP Response from http://www.webservicex.net/country.asmx (status: 200):
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetCountryByCurrencyCodeResponse xmlns="http://www.webserviceX.NET"><GetCountryByCurrencyCodeResult>&lt;NewDataSet&gt;
+  &lt;Table&gt;
+    &lt;Name&gt;Qatar&lt;/Name&gt;
+    &lt;CountryCode&gt;qa&lt;/CountryCode&gt;
+    &lt;Currency&gt;Rial&lt;/Currency&gt;
+    &lt;CurrencyCode&gt;QAR&lt;/CurrencyCode&gt;
+  &lt;/Table&gt;
+  &lt;Table&gt;
+    &lt;Name&gt;Qatar&lt;/Name&gt;
+    &lt;CountryCode&gt;qa&lt;/CountryCode&gt;
+    &lt;Currency&gt;Rial&lt;/Currency&gt;
+    &lt;CurrencyCode&gt;QAR&lt;/CurrencyCode&gt;
+  &lt;/Table&gt;
+&lt;/NewDataSet&gt;</GetCountryByCurrencyCodeResult></GetCountryByCurrencyCodeResponse></soap:Body></soap:Envelope>
+transports.py               61 DEBUG    HTTP Post to http://www.webservicex.net/country.asmx:
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/"><soap-env:Body><ns0:GetCurrencyCodeByCurrencyName xmlns:ns0="http://www.webserviceX.NET"><ns0:CurrencyName>Rial</ns0:CurrencyName></ns0:GetCurrencyCodeByCurrencyName></soap-env:Body></soap-env:Envelope>
+connectionpool.py          395 DEBUG    http://www.webservicex.net:80 "POST /country.asmx HTTP/1.1" 200 412
+transports.py               82 DEBUG    HTTP Response from http://www.webservicex.net/country.asmx (status: 200):
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetCurrencyCodeByCurrencyNameResponse xmlns="http://www.webserviceX.NET"><GetCurrencyCodeByCurrencyNameResult>&lt;NewDataSet&gt;
+  &lt;Table&gt;
+    &lt;CurrencyCode&gt;OMR&lt;/CurrencyCode&gt;
+    &lt;Currency&gt;Rial&lt;/Currency&gt;
+  &lt;/Table&gt;
+  &lt;Table&gt;
+    &lt;CurrencyCode&gt;OMR&lt;/CurrencyCode&gt;
+    &lt;Currency&gt;Rial&lt;/Currency&gt;
+  &lt;/Table&gt;
+  &lt;Table&gt;
+    &lt;CurrencyCode&gt;QAR&lt;/CurrencyCode&gt;
+    &lt;Currency&gt;Rial&lt;/Currency&gt;
+  &lt;/Table&gt;
+  &lt;Table&gt;
+    &lt;CurrencyCode&gt;QAR&lt;/CurrencyCode&gt;
+    &lt;Currency&gt;Rial&lt;/Currency&gt;
+  &lt;/Table&gt;
+  &lt;Table&gt;
+    &lt;CurrencyCode&gt;IRR&lt;/CurrencyCode&gt;
+    &lt;Currency&gt;Rial&lt;/Currency&gt;
+  &lt;/Table&gt;
+  &lt;Table&gt;
+    &lt;CurrencyCode&gt;IRR&lt;/CurrencyCode&gt;
+    &lt;Currency&gt;Rial&lt;/Currency&gt;
+  &lt;/Table&gt;
+&lt;/NewDataSet&gt;</GetCurrencyCodeByCurrencyNameResult></GetCurrencyCodeByCurrencyNameResponse></soap:Body></soap:Envelope>

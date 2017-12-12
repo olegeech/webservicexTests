@@ -1,0 +1,86 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1513038330938" stop="1513038333543">
+  <name>test_country_code_sequence</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1513038330938" status="passed" stop="1513038332238">
+      <name>test_country_code_sequence[qa-Qatar-Rial-QAR]</name>
+      <attachments>
+        <attachment source="16aa6173-c95f-4efb-b5dc-75ce9a82aca1-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="4d68bf8f-7f6b-4266-a9d6-7c7560d32ab9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12988-MainThread"/>
+        <label name="host" value="OTatarchuk"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps>
+        <step start="1513038331513" status="passed" stop="1513038331695">
+          <name>Get country by country code</name>
+          <title>Get country by country code</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1513038331695" status="passed" stop="1513038331875">
+          <name>Get currency by country</name>
+          <title>Get currency by country</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1513038331875" status="passed" stop="1513038332055">
+          <name>Get country by currency code</name>
+          <title>Get country by currency code</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1513038332055" status="passed" stop="1513038332237">
+          <name>Get currency code by currency name</name>
+          <title>Get currency code by currency name</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1513038332265" status="passed" stop="1513038333543">
+      <name>test_country_code_sequence[om-Oman-Rial-OMR]</name>
+      <attachments>
+        <attachment source="137b5710-f6ec-49f4-8787-afababeaa776-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="b0a7edfa-1b8f-4f1b-9796-c871b2e6287c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12988-MainThread"/>
+        <label name="host" value="OTatarchuk"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython2"/>
+      </labels>
+      <steps>
+        <step start="1513038332830" status="passed" stop="1513038333008">
+          <name>Get country by country code</name>
+          <title>Get country by country code</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1513038333008" status="passed" stop="1513038333186">
+          <name>Get currency by country</name>
+          <title>Get currency by country</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1513038333186" status="passed" stop="1513038333363">
+          <name>Get country by currency code</name>
+          <title>Get country by currency code</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1513038333363" status="passed" stop="1513038333541">
+          <name>Get currency code by currency name</name>
+          <title>Get currency code by currency name</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
